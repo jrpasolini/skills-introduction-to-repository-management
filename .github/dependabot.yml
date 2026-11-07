@@ -1,0 +1,7 @@
+# Keep Python dependencies current with weekly update pull requests.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
